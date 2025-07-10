@@ -22,7 +22,7 @@
 	// 001 - Default settings
 
 	var defaults = {
-	messageText: "We use cookies (and other similar technologies) to collect data to improve your experience on our site.",
+	messageText: "Usamos cookies (e outras tecnologias semelhantes) para coletar dados para melhorar sua experiência em nosso site.",
 	messageBg: "#ffffff",						// Message box background color
 	messageColor: "#444444",					// Message box text color
 	messageLinkColor: "#ffffff",				// Message box links color
@@ -30,9 +30,9 @@
 	closeColor: "#2e3648",						// Close icon color
 	closeBgColor: "transparent",				// Close icon background color
 	acceptEnable: true,							// Show the Accept button
-	acceptText: "Accept All",		            // Accept button text
+	acceptText: "Aceitar",		            // Accept button text
 	infoEnable: true,							// Show the More Info button
-	infoText: "Learn More",					    // More Info button text
+	infoText: "Saiba Mais",					    // More Info button text
 	infoUrl: "cookies.html",				    // More Info button URL
 	cookieExpire: 180							// Cookie expire time (days)
 	};
