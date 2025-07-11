@@ -1991,7 +1991,7 @@ p.video-txt-sm {
 .desktoplogo img {
   width: auto;
   max-width: inherit;
-  max-height: 35px;
+  max-height: 48px;
 }
 
 /*------------------------------------------*/
@@ -10253,6 +10253,43 @@ body.theme--dark {
 nav a#pull {  
   display: none;  
 }
+
+/* Custom */
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 35px;
+  left: 40px;
+  background-color: #1ebe5d;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #1ebe5d;
+}
+
+@media (max-width: 767px) {
+  .whatsapp-float {
+    width: 45px;
+    height: 45px;
+    font-size: 22px;
+    bottom: 10px;
+    left: 15px;
+  }
+}
+
 
 
 

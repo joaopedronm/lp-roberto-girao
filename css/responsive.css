@@ -249,7 +249,7 @@
   /*------------------------------------------*/
 
   /* Header Logo */
-  .desktoplogo img { max-height: 30px; }
+  .desktoplogo img { max-height: 48px; }
 
   /* Nav Link */
   .wsmenu > .wsmenu-list > li > a { font-size: 0.9875rem; margin: 0 5px; padding: 10px 15px; }
